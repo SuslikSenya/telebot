@@ -44,7 +44,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
     elif text == "Контакти":
         await update.message.reply_text(
-            "Телефон: +380960029907\nEmail: mrflaiman@gmail.com"
+            "Телефон: +380951542766\nEmail: alexslkarate@gmail.com"
         )
     elif text == "Prompt Gemini":
         await update.message.reply_text("Введіть ваш запит")
@@ -102,3 +102,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
